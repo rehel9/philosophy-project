@@ -8,7 +8,7 @@
   <body
     class="bg-no-repeat bg-cover bg-fixed bg-gradient-to-br from-amber-500 to-orange-500"
   >
-    <div id="app">
+    <div id="app" class="flex flex-col justify-evenly h-screen">
       <header class="p-2 flex flex-row justify-evenly items-center">
         <a href="#" class="w-20"
           ><img src="./assets/logo.png" alt="Pensadores Presocraticos" />
@@ -28,8 +28,29 @@
           />
           <h1 class="text-5xl text-center">Filosofos Presocraticos</h1>
         </div>
+        <div class="flex justify-around items-center p-10">
+          <a href="./pages/milesios.html">
+            <div>
+              <h1>Milesios</h1>
+              <img src="./assets/pensadores-milesios.jpg" alt="Milesios" />
+            </div>
+          </a>
+          <a href="./pages/presocraticos.html">
+            <div>
+              <h1>Presocraticos</h1>
+              <img src="./assets/logo.png" alt="Presocraticos" />
+            </div>
+          </a>
+          <a href="./pages/atomistas.html"
+            ><div>
+              <h1>atomistas</h1>
+              <img src="./assets/atomistas.jpg" alt="Atomistas" /></div
+          ></a>
+        </div>
       </main>
-      <footer class="flex flex-row justify-around bg-green-500 h-10 mt-100">
+      <footer
+        class="flex flex-row justify-around items-center bg-green-500 h-10 mt-auto"
+      >
         <p>Made by Luis Leonardo</p>
         <a href="https://github.com/rehel9/philosophy-project"
           ><img src="./assets/github.svg" alt="Github logo" class="w-7"
